@@ -1,128 +1,152 @@
-````md id="repo-clase"
-# 💻 Ejemplos de Clase – Programación
+````md
+# 💻 Ejemplos de Clase – Programación II (Java)
 
-Este repositorio contiene ejemplos desarrollados en clase, con el objetivo de acompañar el aprendizaje de programación de forma práctica y progresiva.
+Este repositorio contiene ejemplos desarrollados en clase para la Unidad Curricular **Programación II**, utilizando el lenguaje Java.
 
-📚 Aquí se irán publicando códigos vistos en clase, organizados por temas.
-
----
-
-## 🎯 Objetivo
-
-- Reforzar los contenidos trabajados en clase
-- Brindar ejemplos claros y funcionales
-- Permitir que los estudiantes practiquen y experimenten
-- Servir como material de consulta
+📚 El objetivo es acompañar el aprendizaje mediante ejercicios prácticos, progresivos y reutilizables.
 
 ---
 
-## 🧠 Contenidos
+## 🎯 Objetivo del repositorio
 
-Los ejemplos estarán organizados por temas:
+- Reforzar conceptos vistos en clase
+- Mostrar implementaciones funcionales en Java
+- Fomentar la lectura y comprensión de código
+- Servir como base para ejercicios y evaluaciones
 
-### 🔹 Nivel Inicial
-- Variables y tipos de datos
-- Entrada y salida (`input` / `print`)
-- Operadores
+---
+
+## 🧠 Contenidos trabajados
+
+En este repositorio se abordan los siguientes temas:
 
 ### 🔹 Estructuras de control
-- Condicionales (`if`, `elif`, `else`)
-- Bucles (`for`, `while`)
+- Bucles `while` y `for`
+- Condicionales `if / else`
+
+### 🔹 Entrada de datos
+- Uso de la clase `Scanner`
 
 ### 🔹 Modularización
-- Funciones
-- Procedimientos
-- Parámetros y retorno de valores
+- Métodos (`static`)
+- Separación de lógica en funciones reutilizables
 
-### 🔹 Estructuras de datos
-- Listas
-- Tuplas
-- Diccionarios
-
-### 🔹 Temas avanzados (según avance del curso)
-- Programación orientada a objetos
-- Estructuras de datos (pilas, colas, árboles)
-- Archivos
-- Algoritmos
+### 🔹 Lógica de programación
+- Acumuladores
+- Contadores
+- Validaciones
+- Control de flujo
 
 ---
 
-## 📂 Organización del repositorio
+## 📌 Ejemplos incluidos
 
-Los ejemplos estarán organizados en carpetas por tema:
+### 1️⃣ Suma hasta ingresar 0
 
-```bash id="estructura-repo"
-📁 ejemplos-clase
- ├── 📁 01_variables
- ├── 📁 02_condicionales
- ├── 📁 03_bucles
- ├── 📁 04_funciones
- ├── 📁 05_listas
- ├── 📁 06_diccionarios
- └── 📁 07_proyectos
+Permite ingresar números y acumularlos hasta que el usuario ingrese `0`.
+
+👉 Conceptos:
+- Bucle `while`
+- Acumulador
+
+---
+
+### 2️⃣ Contador desde 0 hasta un número
+
+Muestra todos los números desde 0 hasta el valor ingresado.
+
+👉 Conceptos:
+- Contador
+- Bucle `while`
+
+---
+
+### 3️⃣ Suma con variante de control
+
+Otra implementación del problema de suma, cambiando la lógica del flujo.
+
+👉 Conceptos:
+- Inicialización
+- Repetición controlada
+
+---
+
+### 4️⃣ Tabla de multiplicar con validación
+
+Genera la tabla de multiplicar de un número, validando que no sea negativo.
+
+👉 Conceptos:
+- Bucle `for`
+- Validación con `if`
+
+---
+
+### 5️⃣ Juego: Adivinar el número
+
+El usuario debe adivinar un número secreto con intentos limitados.
+
+👉 Conceptos:
+- Lógica condicional
+- Contador de intentos
+- Comparación de valores
+
+---
+
+## ▶️ Cómo ejecutar
+
+1. Abrir el proyecto en un IDE como:
+   - IntelliJ IDEA
+   - Eclipse
+
+2. Ejecutar la clase principal:
+
+```bash
+Run Main.java
 ````
-
----
-
-## ▶️ Cómo usar este repositorio
-
-1. Clonar el repositorio:
-
-```bash
-git clone https://github.com/TU-USUARIO/TU-REPO.git
-```
-
-2. Abrir los archivos en tu editor (VS Code recomendado)
-
-3. Ejecutar los ejemplos con Python:
-
-```bash
-python nombre_del_archivo.py
-```
 
 ---
 
 ## 🧑‍💻 Recomendaciones para estudiantes
 
-* ✔️ Leer el código antes de ejecutarlo
-* ✔️ Probar modificar valores
-* ✔️ Agregar nuevas funcionalidades
-* ✔️ Intentar hacer el mismo ejercicio desde cero
+* ✔️ Leer cada método antes de ejecutarlo
+* ✔️ Ejecutar un ejercicio a la vez (descomentando en `main`)
+* ✔️ Modificar valores (por ejemplo el número secreto)
+* ✔️ Intentar mejorar el código
+
+---
+
+## 🧪 Posibles mejoras
+
+* Generar número aleatorio con `Random`
+* Agregar validación de entrada (try/catch)
+* Permitir múltiples partidas en el juego
+* Separar cada ejercicio en clases distintas
 
 ---
 
 ## 🧑‍🏫 Uso en clase
 
-Este repositorio será utilizado como:
+Este repositorio se utiliza como:
 
-* Apoyo durante las clases
-* Material de repaso
+* Material de apoyo
 * Base para ejercicios prácticos
-* Referencia para evaluaciones
-
----
-
-## 🚀 Próximamente
-
-* Ejercicios guiados
-* Desafíos prácticos
+* Ejemplo de buenas prácticas iniciales
+* Preparación para evaluaciones
 
 ---
 
 ## 👨‍🏫 Autor
 
 **Marcos Berttoni**
-Docente de Ciencias Computacionales
-Uruguay 🇺🇾
+Docente de Informática
+Programación II – Java
 
 ---
 
 ## ⚡ Nota
 
-Este repositorio está en constante crecimiento, acompañando el desarrollo del curso.
+Este repositorio se irá actualizando a medida que avance el curso, incorporando nuevos ejemplos y conceptos.
 
 ---
 
-💡 *La programación se aprende practicando.*
-
-```
+🚀 *La programación se aprende escribiendo código todos los días.*
